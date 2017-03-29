@@ -1,0 +1,85 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_all"
+    tools:context="com.temptilicious.therecipetree.AllRecipesActivity"
+    android:fillViewport="false"
+      >
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:layout_marginTop="40dip"
+            android:id="@+id/textViewRecipeName" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageViewMarker"
+
+            android:layout_toRightOf="@+id/textViewRecipeName"
+            android:layout_marginTop="40dip"/>
+
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewRecipeShow"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dip" />
+
+   <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewRecipeShow"
+       android:layout_marginTop="20dp"
+        android:id="@+id/scroll">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/accent_material_light"
+        android:id="@+id/textViewRecipe" />
+
+
+
+   </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:id="@+id/buttonGoToHelp"
+        android:textColor="@color/material_deep_teal_500"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch Video"
+        android:id="@+id/buttonVideo"
+        android:layout_alignRight="@+id/buttonGoToHelp"
+        android:textColor="@color/material_deep_teal_500"
+        android:layout_below="@+id/scroll"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+    </ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.temptilicious.therecipetree" >
+<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.temptilicious.therecipetree.mainactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyListView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.temptilicious.therecipetree.mylistview" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mocktails_Activity"
+            android:label="@string/title_activity_mocktails_"
+            android:parentActivityName=".MyListView" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.temptilicious.therecipetree.MyListView" />
+        </activity>
+        <activity
+            android:name=".AllRecipesActivity"
+            android:label="@string/title_activity_all_recipes" >
+        </activity>
+        <activity
+            android:name=".Indian_Recipes"
+            android:label="@string/title_activity_indian__recipes"
+            android:parentActivityName=".MyListView" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.temptilicious.therecipetree.MyListView" />
+        </activity>
+        <activity
+            android:name=".Desserts_Activity"
+            android:label="@string/title_activity_desserts_"
+            android:parentActivityName=".MyListView" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.temptilicious.therecipetree.MyListView" />
+        </activity>
+        <activity
+            android:name=".Soups_Activity"
+            android:label="@string/title_activity_soups_"
+            android:parentActivityName=".MyListView" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.temptilicious.therecipetree.MyListView" />
+        </activity>
+        <activity
+            android:name=".Continental_Activity"
+            android:label="@string/title_activity_continental_"
+            android:parentActivityName=".MyListView" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.temptilicious.therecipetree.MyListView" />
+        </activity>
+        <activity
+            android:name=".Mexican_Activity"
+            android:label="@string/title_activity_mexican_"
+            android:parentActivityName=".MyListView" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.temptilicious.therecipetree.MyListView" />
+        </activity>
+        <activity
+            android:name=".Thai_Activity"
+            android:label="@string/title_activity_thai_"
+            android:parentActivityName=".MyListView" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.temptilicious.therecipetree.MyListView" />
+        </activity>
+        <activity
+            android:name=".Ingredient_Meaning"
+            android:label="@string/title_activity_ingredient__meaning"
+            android:parentActivityName=".MainActivity" >
+            <intent-filter>
+                <action android:name="com.temptilicious.therecipetree.ingredientmeaning" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.temptilicious.therecipetree.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

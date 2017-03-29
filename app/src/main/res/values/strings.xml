@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TheRecipeTree</string>
+    <string name="title_section1">About Us</string>
+    <string name="title_section2">Getting Started</string>
+    <string name="title_section3">Help</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="About_Us"> To all the people who think that to make different cuisines you first need to
+                  go Shopping, here comes an app which will tell you the various cuisines and recipes
+                  which you can make with the ingredients at your home. All you  have to do is select an
+                   ingredient set from the bunch of given ingredient sets and enter into the world of  cuisines
+                  and recipes. So get ready to pamper your Tastebuds.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mocktails_">Mocktails_Activity</string>
+    <string name="title_activity_all_recipes">AllRecipesActivity</string>
+    <string name="title_activity_indian__recipes">Indian_Recipes</string>
+    <string name="title_activity_desserts_">Desserts_Activity</string>
+    <string name="title_activity_soups_">Soups_Activity</string>
+    <string name="title_activity_continental_">Continental_Activity</string>
+    <string name="title_activity_mexican_">Mexican_Activity</string>
+    <string name="title_activity_thai_">Thai_Activity</string>
+    <string name="title_activity_ingredient__meaning">Ingredient_Meaning</string>
+
+</resources>

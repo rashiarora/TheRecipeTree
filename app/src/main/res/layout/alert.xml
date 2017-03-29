@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="120dp"
+    android:minWidth="50dp"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:layout_width="340dip"
+        android:layout_height="50dip"
+        android:id="@+id/editTextHelp"
+        android:layout_marginTop="30dip"
+        android:singleLine="true"
+        android:hint="  Enter the name of ingredient to search"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:text="Search"
+        android:id="@+id/buttonAlert"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dip"/>
+</LinearLayout>
